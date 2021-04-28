@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #cc0000;
+    --secondary-color: #cc0000;
+    --background-color: #ffffff;
+
+    --font-title: 23px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .main-top{
+        padding-top: 15px;
+    }
+}

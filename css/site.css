@@ -1,0 +1,715 @@
+:root {
+    --primary-color: #cc0000;
+    --secondary-color: #cc0000;
+    --background-color: #ffffff;
+
+    --font-title: 23px;
+}
+
+/* --------Home------------- */
+
+body {
+    background-color: var(--background-color);
+}
+
+.main-top{
+    padding-top: 15px;
+}
+
+.banner-ads {
+    position: absolute;
+    width: 970px;
+    height: 250px;
+    left: calc(50% - 970px/2);
+    border-radius: 4px;
+}
+
+.navbar-black {
+    position: absolute;
+    height: 48px;
+    left: 0%;
+    right: 0%;
+    top: 334px;
+    background: #000000;
+}
+
+.navbar-container {
+    margin: 30 auto;
+}
+
+.navbar-logo {
+    position:relative;
+    float: left;
+    left: 10px;
+    height: 47px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.navbar-live-icon.navbar-links {
+    height: 10px;
+    margin-left: 5px;
+}
+ 
+.navbar-live {
+    height: 10px;
+    margin-left: 5px;
+}
+
+.navbar-links ul.navbar-links {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 47px;
+    border-bottom-color: transparent;
+}
+
+#navbar-live-item.navbar-links {
+    /* background: #262626; */
+    left: 20px;
+}
+
+.navbar-links ul.navbar-links li.navbar-links {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.navbar-links ul.navbar-links li.navbar-links a.navbar-links {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    cursor: pointer;
+    font-feature-settings: 'tnum';
+    font-size: 14px;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: tabular-nums;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 48px;
+    white-space: nowrap;
+
+}
+
+.navbar-search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.navbar-position-search {
+    list-style-type: none;
+    margin: 0px;
+    align-items: center;
+    padding: 0px;
+    height: 95%;
+    width: 100%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: flex-end;
+}
+
+.search-input {
+    height: 45px;
+    padding: 0px 60px 3px 150px;
+    color: #000;
+    font-size: 14px;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+}
+
+.search-input-text {
+    height: 20px;
+    text-align: center;
+    color: #000;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+}
+
+.input-icon {
+    margin-left: -140px;
+    margin-top: 15px;
+}
+
+.main-bottom {
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    bottom: 0%;
+}
+
+.colunistas_bg {
+    position: absolute;
+    width: 1296px;
+    height: 380px;
+    left: 250px;
+    top: 446px;
+}
+
+.content {
+    width: 1000px;
+}
+
+.rectangle-left {
+    position: absolute;
+    width: 680px;
+    height: 516px;
+    float: left;
+    left: 350px;
+    top: 874px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+}
+
+.rectangle-left-2 {
+    position: absolute;
+    width: 680px;
+    height: 516px;
+    float: left;
+    left: 350px;
+    top: 1450px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+}
+
+.borderline-rectangle-2 {
+    position: absolute;
+    width: 8px;
+    height: 516px;
+    background: #A81D1D;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.rectangle-right {
+    position: absolute;
+    float: left;
+    width: 300px;
+    top: 874px;
+    height: 516px;
+    left: 1100px;
+}
+
+.borderline-rectangle {
+    position: absolute;
+    width: 8px;
+    height: 516px;
+    background: #A81D1D;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.facebook-icon {
+    position: absolute;
+    left: 30px;
+    right: 31.25%;
+    top: 7%;
+    bottom: 18.75%;
+}
+
+.twitter-icon {
+    position: absolute;
+    left: 60px;
+    right: 31.25%;
+    top: 7.3%;
+    bottom: 18.75%;
+}
+
+.linkedin-icon {
+    position: absolute;
+    left: 90px;
+    right: 31.25%;
+    top: 7%;
+    bottom: 18.75%;
+}
+
+.messeger-icon {
+    position: absolute;
+    left: 120px;
+    right: 31.25%;
+    top: 7%;
+    bottom: 18.75%;
+}
+
+.whatsapp-icon {
+    position: absolute;
+    left: 150px;
+    right: 31.25%;
+    top: 7%;
+    bottom: 18.75%;
+}
+
+.email-icon {
+    position: absolute;
+    left: 180px;
+    right: 31.25%;
+    top: 7%;
+    bottom: 18.75%;
+}
+
+.title-text {
+    position: absolute;
+    width: 609px;
+    height: 56px;
+    left: 30px;
+    top: 70px; 
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 122%;
+    color: #262626;
+}
+
+.picture-perfil-01 {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    left: 30px;
+    top: 150px;
+
+}
+
+.picture-perfil-02 {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    left: 90px;
+    top: 150px;
+
+}
+
+.picture-perfil-03 {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    left: 150px;
+    top: 150px;
+
+}
+
+.picture-perfil-04 {
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    left: 210px;
+    top: 150px;
+
+}
+
+.subtitle-text {
+    position: absolute;
+    width: 413px;
+    height: 31px;
+    left: 270px;
+    top: 155px;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.0034em;
+    color: #4D4D4D;
+}
+
+.body-text {
+    position: absolute;
+    width: 609px;
+    height: 280px;
+    left: 30px;
+    top: 220px;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #4D4D4D;
+}
+
+.book-icon {
+    position: absolute;
+    left: 5px;
+    right: 15.62%;
+    top: 7%;
+    bottom: 18.75%;
+}
+
+.more-read-title {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 40px;
+    top: 7%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;   
+    color: #262626;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.color-number-01 {
+    position: absolute;
+    height: 20px;
+    left: 20px;
+    top: 15%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #A81D1D;
+}
+
+.more-read-text-01 {
+    position: absolute;
+    height: 36px;
+    left: 47px;
+    right: 0px;
+    top: 15%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+.color-number-02 {
+    position: absolute;
+    height: 20px;
+    left: 20px;
+    top: 25%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #A81D1D;
+}
+
+.more-read-text-02 {
+    position: absolute;
+    height: 36px;
+    left: 47px;
+    right: 0px;
+    top: 25%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+.color-number-03 {
+    position: absolute;
+    height: 20px;
+    left: 20px;
+    top: 35%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #A81D1D;
+}
+
+.more-read-text-03 {
+    position: absolute;
+    height: 36px;
+    left: 47px;
+    right: 0px;
+    top: 35%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+.color-number-04 {
+    position: absolute;
+    height: 20px;
+    left: 20px;
+    top: 45%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #A81D1D;
+}
+
+.more-read-text-04 {
+    position: absolute;
+    height: 36px;
+    left: 47px;
+    right: 0px;
+    top: 45%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+.color-number-05 {
+    position: absolute;
+    height: 20px;
+    left: 20px;
+    top: 55%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #A81D1D;
+}
+
+.more-read-text-05 {
+    position: absolute;
+    height: 36px;
+    left: 47px;
+    right: 0px;
+    top: 55%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+
+.rectangle-ads-right {
+    position: absolute;
+    left: 5px;
+    top: 70%;
+}
+
+.column-nossos-colunistas {
+    position: absolute;
+    top: 125%;
+    left: 47px;
+    width: 240px;
+    height: 1136px;
+}
+
+.column-title {
+    position: static;
+    width: 240px;
+    height: 36px;
+    left: 48px;
+    top: 125%;
+    background: #A81D1D;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.title-nossos-colunistas {
+    position: relative;
+    width: 188px;
+    height: 18px;
+    left: 55px;
+    top: 20%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+
+.perfil-nossos-colunistas-01 {
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    left: 30px;
+    top: 5%;
+}
+
+.nome-perfil-nossos-colunistas-01 {
+    position: absolute;
+    left: 80px;
+    top: 5.5%;
+}
+
+.line-perfil-01 {
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 30px;
+    top: 8.5%;
+    border: 1px solid #8C8C8C;
+}
+
+.text-perfil-01 {
+    position: absolute;
+    width: 200px;
+    height: 137px;
+    left: 30px;
+    top: 10%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    color: #262626;
+
+}
+
+.buttom-perfil-01 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    position: absolute;
+    width: 197px;
+    height: 36px;
+    left: 30px;
+    top: 21%;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.perfil-nossos-colunistas-02 {
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    left: 30px;
+    top: 27%;
+}
+
+.nome-perfil-nossos-colunistas-02 {
+    position: absolute;
+    left: 80px;
+    top: 27.5%;
+}
+
+.line-perfil-02 {
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 30px;
+    top: 30.5%;
+    border: 1px solid #8C8C8C;
+}
+
+.text-perfil-02 {
+    position: absolute;
+    width: 200px;
+    height: 137px;
+    left: 30px;
+    top: 32%;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    color: #262626;
+}
+
+.buttom-perfil-02 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    position: absolute;
+    width: 197px;
+    height: 36px;
+    left: 30px;
+    top: 43%;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.consumidor {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+.body-text-02 {
+    position: absolute;
+    width: 609px;
+    height: 280px;
+    left: 30px;
+    top: 550px;
+    font-family: CNN Sans Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #4D4D4D;
+}
+
+.button-02 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    width: 197px;
+    height: 36px;
+    left: 200px;
+    top: 820px;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.footer {
+    width: 1000px;
+}
+
+.footer-news-image {
+    position: absolute;
+    width: 1848px;
+    height: 380px;
+    left: 0px;
+    top: 2400px;
+}
